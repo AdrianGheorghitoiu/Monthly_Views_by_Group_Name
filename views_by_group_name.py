@@ -38,7 +38,7 @@ devs_views
 devs_views.describe()
 
 [319]
-#filtering out all rows with a Total View Count above 62
+#filtering out all rows with a Total View Count above 62, according to the calculations above
 
 devs_views = devs_views[(devs_views['Total View Count']<=62)]
 
